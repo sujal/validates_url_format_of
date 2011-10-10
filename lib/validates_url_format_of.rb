@@ -34,4 +34,4 @@ module ValidatesUrlFormatOf
 
 end
 
-ActiveRecord::Base.extend(ValidatesUrlFormatOf)
+ActiveModel::Validations.extend(ValidatesUrlFormatOf)
